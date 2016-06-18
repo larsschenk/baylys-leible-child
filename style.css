@@ -1,0 +1,15 @@
+/*
+ Theme Name:   Baylys Leible Child
+ Theme URI:    http://www.ocx.de/baylys-leible-child/
+ Description:  Baylys Leible Child Theme
+ Author:       Lars Schenk
+ Author URI:   https://ocx.de
+ Template:     baylys
+ Version:      1.3.0
+ Tags:         light, responsive-layout
+ Text Domain:  baylys-leible-child
+*/
+
+#footer {
+    background:#000044 !important;
+}

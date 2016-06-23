@@ -5,3 +5,15 @@
 #footer {
     background:#041E6B !important;
 }
+#site-title h1 a {
+    text-transform: lowercase;
+    font-family: 'Baloo', cursive;
+    color: #041E6B !important;
+    font-size: 44px !important;
+}
+#site-nav a {
+    text-transform: lowercase !important;
+    font-family: 'Baloo', cursive;
+    color: #041E6B !important;
+    font-size: 24px !important;
+}

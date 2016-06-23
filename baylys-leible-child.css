@@ -1,0 +1,7 @@
+/* Let the style.css empty by design and use this css instead. 
+   This way we can work around the cache by increasing version numbers.
+*/
+
+#footer {
+    background:#041E6B !important;
+}

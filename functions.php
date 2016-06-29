@@ -30,6 +30,6 @@ add_action('wp_enqueue_scripts', 'enqueue_parent_theme_style');
 function enqueue_parent_theme_style()
 {
     wp_enqueue_style('parent-style', get_template_directory_uri().'/style.css', array(), '1.1.1');
-    wp_enqueue_style('child-style', get_stylesheet_directory_uri().'/baylys-leible-child.css', array(), '1.0.5');
+    wp_enqueue_style('child-style', get_stylesheet_directory_uri().'/baylys-leible-child.css', array(), '1.0.6');
     wp_enqueue_style('baloo', 'https://fonts.googleapis.com/css?family=Baloo');
 }

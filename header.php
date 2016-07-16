@@ -64,7 +64,7 @@ if (get_bloginfo('language')=='de-DE') {
                         if( $options['custom_logo'] != '' ) : ?>
                         <a href="<?php echo home_url( '/' ); ?>" class="logo"><img src="<?php echo $options['custom_logo']; ?>" alt="<?php bloginfo('name'); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" /></a>
                     <?php else: ?>
-                        <a style="color: #ffffff; font-family: 'Baloo', cursive; font-size: 32px !important;" href="/" title="hanseatische sanitär">hanseatische sanitär</a><br />
+                        <a style="line-height: 100%; color: #ffffff; font-family: 'Baloo', cursive; font-size: 32px !important;" href="/" title="hanseatische sanitär">hanseatische sanitär</a><br />
                         <a style="color: #ffffff; font-family: 'Baloo', cursive; font-size: 30px !important;" href="/">klaus-otto leible gmbh</a>
                     <?php endif  ?>
                 </div><!-- end #site-title -->
